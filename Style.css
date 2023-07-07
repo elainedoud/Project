@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+
+  #large-container{
+    padding: 0.5rem;
+    height: 100%;
+    width: 100%;
+    color:black;
+    background-color: white;
+  }
+
+  #info-box{
+    padding: 10rem;
+    height: 100%;
+    width:100%;
+    height:auto;
+    color: black;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+  }
