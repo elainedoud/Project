@@ -9,9 +9,11 @@
 }
 
 #large-container{
-    padding: 4rem;
-    height: 100%;
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     color:black;
     background-color: white;
   }
@@ -19,6 +21,7 @@
   #info-box{
     width: 300px;
     height: 300px;
+    margin: 20px;
     color: black;
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;

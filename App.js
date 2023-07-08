@@ -17,15 +17,8 @@ fetch(Url)
 //Pulling information from API for name of repo, its size, and its created at
 // information
 
-//Next Steps:
-// Adjust CSS to make it look better
-// Change size, padding, width, and height of boxes to make them nice to 
-// look at
-// Change color of boxes?
-// Can created at information be converted to something easier to read?
-
 // Add a search function
-// Add an another free API
+// Add an another free API [Stretch Goal]
 // Try to make an adjustment so GET 404 error does not appear in 
 // console window
 // Readme (Final Step)
