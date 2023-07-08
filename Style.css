@@ -1,22 +1,15 @@
-  body {
-    padding: 1rem;
-    text-align: center;
-    background-color: #fafafa;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  header {
-    padding: 0.5rem;
-    width: 100%;
-    color: white;
-    background-color: black;
-  }
+#title {
+  padding: 1rem;
+  text-align: center;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  #large-container{
-    padding: 0.5rem;
+#large-container{
+    padding: 4rem;
     height: 100%;
     width: 100%;
     color:black;
@@ -24,19 +17,16 @@
   }
 
   #info-box{
-    
-    height: 100%;
-    width:100%;
-    display: flex;
-    height:auto;
+    width: 300px;
+    height: 300px;
     color: black;
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  #namestyle{
-    padding: 5rem;
+  #info{
     color: black;
-    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 25px;
   }

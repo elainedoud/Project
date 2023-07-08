@@ -5,20 +5,25 @@ fetch(Url)
 .then(data => {
     let boxes = "";
  data.items.map((values)=>{
-    boxes+=     `<div id="large-container">
-    <div id="info-box">
-        <p id="namestyle"> Name: ${values.name}</p>
-        <p id="namestyle">Size: ${values.size}</p>
-        <p id="namestyle">Created At: ${values.created_at}</p>
-    </div>
-</div>`  
+    boxes+=    `<div id="info-box">
+        <p id="info"> Name: ${values.name}</p>
+        <p id="info">Size: ${values.size}</p>
+        <p id="info">Created At: ${values.created_at}</p>
+    </div>`  
  })
- document.getElementById("large-container").innerHTML = names;
+ document.getElementById("large-container").innerHTML = boxes;
 });
 
+//Pulling information from API for name of repo, its size, and its created at
+// information
+
 //Next Steps:
-// Fix variable names and add comments
 // Adjust CSS to make it look better
+// Change size, padding, width, and height of boxes to make them nice to 
+// look at
+// Change color of boxes?
+// Can created at information be converted to something easier to read?
+
 // Add a search function
 // Add an another free API
 // Try to make an adjustment so GET 404 error does not appear in 
