@@ -3,15 +3,13 @@ const Url = 'https://api.github.com/search/repositories?q=language:java&sort=sta
 fetch(Url)
 .then(res => res.json())
 .then(data => {
-    let names = "";
+    let boxes = "";
  data.items.map((values)=>{
-    names+=     `<div id="large-container">
+    boxes+=     `<div id="large-container">
     <div id="info-box">
-        <p id="namestyle">${values.full_name}</p>
-        <p id="namestyle">${values.size}</p>
-        <p id="namestyle">${values.created_at}</p>
-        <p id="namestyle">${values.has_wiki}</p>
-        
+        <p id="namestyle"> Name: ${values.name}</p>
+        <p id="namestyle">Size: ${values.size}</p>
+        <p id="namestyle">Created At: ${values.created_at}</p>
     </div>
 </div>`  
  })
@@ -19,11 +17,13 @@ fetch(Url)
 });
 
 //Next Steps:
-// Display more information
 // Fix variable names and add comments
 // Adjust CSS to make it look better
+// Add a search function
+// Add an another free API
 // Try to make an adjustment so GET 404 error does not appear in 
 // console window
+// Readme (Final Step)
 
 
 // May need to use Command-Shift-R to force refresh the page
