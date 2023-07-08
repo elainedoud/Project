@@ -19,8 +19,6 @@ fetch(Url)
 
 // Add a search function
 // Add an another free API [Stretch Goal]
-// Try to make an adjustment so GET 404 error does not appear in 
-// console window
 // Readme (Final Step)
 
 

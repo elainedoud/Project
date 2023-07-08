@@ -33,3 +33,17 @@
     align-items: center;
     padding: 25px;
   }
+
+  #search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .25 rem
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  .hide {
+    display:none;
+  }
