@@ -47,3 +47,32 @@
   .hide {
     display:none;
   }
+
+#fact-label {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 25 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#fact-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 25 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+#facts {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
